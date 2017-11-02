@@ -3,6 +3,7 @@
 # Student number: 10676643
 '''
 This script scrapes IMDB and outputs a CSV file with highest rated tv series.
+TEEEEEEEST
 '''
 import csv
 
@@ -74,7 +75,6 @@ if __name__ == '__main__':
 
     # Extract the tv series (using the function you implemented)
     tvseries = extract_tvseries(dom)
-    print tvseries
 
     # Write the CSV file to disk (including a header)
     with open(OUTPUT_CSV, 'wb') as output_file:
