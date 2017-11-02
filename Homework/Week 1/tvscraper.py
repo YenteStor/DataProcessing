@@ -3,7 +3,6 @@
 # Student number: 10676643
 '''
 This script scrapes IMDB and outputs a CSV file with highest rated tv series.
-TEEEEEEEST
 '''
 import csv
 
