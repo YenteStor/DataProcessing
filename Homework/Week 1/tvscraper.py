@@ -20,29 +20,35 @@ def extract_tvseries(dom):
     '''
     
     mother_list = []
+
+    # get movies
     for e in dom.by_class("lister-item-content"):
+
+        # get actors
         actors = ""
         for i in range(len(e.by_tag("p"))):
             actors += e.by_tag("p")[2].by_tag("a")[i].content.encode('utf-8')
             if i != (len(e.by_tag("p"))-1):
                 actors += ", "
 
+        # content per movie
         contents = []
-        # Title
+
+        # title
         contents.append(e.by_class("lister-item-header")[0].by_tag("a")[0].content.encode('utf-8'))
 
-        # Rating
+        # rating
         contents.append(e.by_class("ratings-bar")[0].by_class("inline-block ratings-imdb-rating")[0].by_tag("strong")[0].content.encode('utf-8'))
 
-        # Genre
+        # genre stripped of useless chars
         contents.append(e.by_class("text-muted")[1].by_class("genre")[0].content.encode('utf-8').strip(" ").strip("\n"))
 
-        # Actors
         contents.append(actors)
 
-        # Runtime
+        # runtime
         contents.append(e.by_class("text-muted")[1].by_class("runtime")[0].content.encode('utf-8'))
 
+        # add movie content to mother list of content
         mother_list.extend([contents])
 
     return mother_list 
@@ -55,7 +61,8 @@ def save_csv(f, tvseries):
     writer = csv.writer(f)
     
     writer.writerow(['Title', 'Rating', 'Genre', 'Actors', 'Runtime'])
-    
+
+    # add content
     for row in tvseries:
         writer.writerow(row)
 
