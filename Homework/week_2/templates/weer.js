@@ -81,8 +81,7 @@ function getDomain(data_list){
     var domain_max = data_list.reduce(function(a,b){
         return Math.max(a,b)
     });
-    console.log(data_list)
-    console.log([domain_min, domain_max])
+
     return [domain_min, domain_max];
 }
 
