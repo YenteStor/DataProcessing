@@ -74,14 +74,15 @@ function getDomain(data_list){
 
     // save biggest number
     var domain_min = data_list.reduce(function(a,b){
-        return Math.max(a,b)
+        return Math.min(a,b)
     });
 
     // save smallest number
     var domain_max = data_list.reduce(function(a,b){
-        return Math.min(a,b)
+        return Math.max(a,b)
     });
-
+    console.log(data_list)
+    console.log([domain_min, domain_max])
     return [domain_min, domain_max];
 }
 
@@ -124,8 +125,9 @@ function drawGraph(x_array, y_array){
 
 
     // get transformation functions for x and y axis
-    x_transform = createTransform(getDomain(x_array),[edge + bg_edge, edge + bg_width - bg_edge])
-    y_transform = createTransform(getDomain(y_array),[edge + bg_edge, edge + bg_height - bg_edge])
+    x_transform = createTransform(getDomain(x_array),[edge + bg_edge, edge + bg_width - bg_edge]);
+    y_transform = createTransform(getDomain(y_array),[edge + bg_height - bg_edge, edge + bg_edge]);
+    x_axis_transform = createTransform(getDomain(y_array),[edge + bg_height - bg_edge,edge + bg_edge]);
 
     // y axis
     ctx.moveTo(edge + bg_edge, edge + bg_edge);
