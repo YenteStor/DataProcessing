@@ -87,9 +87,9 @@ function getDomain(data_list){
 
 function relativeDays(dates_array){
 
-    days_array = []
+    var days_array = []
     var ms_day = 86400000;
-    date_0 = dates_array[0].getTime() - ms_day;
+    var date_0 = dates_array[0].getTime() - ms_day;
 
     // calculate day number relative to date_0
     for(i = 0; i<dates_array.length; i++){
