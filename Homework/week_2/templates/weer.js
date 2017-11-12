@@ -8,6 +8,7 @@
 // sources for canvas elements:
 // - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
 // - https://stackoverflow.com/questions/1643320/get-month-name-from-date
+// - https://stackoverflow.com/questions/3167928/drawing-rotated-text-on-a-html5-canvas
 
 
 function getData(){
@@ -241,10 +242,22 @@ function drawGraph(raw_x_array, y_array){
 
 };
 
-function main(){
+function reqListener () {
+  console.log(this.responseText);
+}
 
-    data = getData();
+function main(){
+    // // een XMLHTTPRequest poging
+    // request_object = new XMLHttpRequest;
+    // request_object.open("GET", "http://projects.knmi.nl/klimatologie/daggegevens/selectie.cgi",true);
+    //
+    // request_object.onload = function() {
+    //   console.log(request_object.responseText)
+    // };
+    // request_object.send();
+    // data = getData();
     // days_ar = relativeDays(data['dates']);
+    var data = getData()
     drawGraph(data['dates'],data['temps']);
     console.log(data['temps'])
 };
