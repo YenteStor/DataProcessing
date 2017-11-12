@@ -7,6 +7,7 @@
 // a folder called templates that holds weer.html and weer.js
 // sources for canvas elements:
 // - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
+// - https://stackoverflow.com/questions/1643320/get-month-name-from-date
 
 
 function getData(){
@@ -99,11 +100,13 @@ function relativeDays(dates_array){
     return days_array
 }
 
-function drawGraph(x_array, y_array){
+function drawGraph(raw_x_array, y_array){
     // x_array  must be an array of the X values
     // y_array must be an array of the y values
     // uses the createTransform() function to get the transformed values
     // to fit into the graph
+
+    x_array = relativeDays(raw_x_array);
 
     // get canvas and create 2d context
     var canvas = document.getElementById('myCanvas');
@@ -115,31 +118,96 @@ function drawGraph(x_array, y_array){
     bg_width = 500;
     bg_height = 400;
     bg_edge = 30;
+    graph_bottom = edge + bg_height - bg_edge;
+    // top and right side of graph
+    graph_side = edge + bg_edge;
 
     // graph background
     ctx.fillStyle = 'rgb(200, 200, 0)';
     ctx.fillRect(edge, edge, bg_width, bg_height);
     ctx.beginPath();
 
-
-
     // get transformation functions for x and y axis
-    x_transform = createTransform(getDomain(x_array),[edge + bg_edge, edge + bg_width - bg_edge]);
-    y_transform = createTransform(getDomain(y_array),[edge + bg_height - bg_edge, edge + bg_edge]);
-    x_axis_transform = createTransform(getDomain(y_array),[edge + bg_height - bg_edge,edge + bg_edge]);
+    x_transform = createTransform(getDomain(x_array),[graph_side, edge + bg_width - bg_edge]);
+    y_transform = createTransform(getDomain(y_array),[graph_bottom, graph_side]);
+    x_axis_transform = createTransform(getDomain(y_array),[graph_bottom,graph_side]);
 
     // y axis
-    ctx.moveTo(edge + bg_edge, edge + bg_edge);
-    ctx.lineTo(edge + bg_edge, edge + bg_height - bg_edge);
+    ctx.moveTo(graph_side, graph_side);
+    ctx.lineTo(graph_side, graph_bottom);
     ctx.stroke();
 
-    // x axis
-    ctx.moveTo(edge + bg_edge, y_transform(0));
+    // 0 degrees dashed line
+    ctx.beginPath();
+    ctx.setLineDash([5, 15]);
+    ctx.moveTo(graph_side, y_transform(0));
     ctx.lineTo(edge + bg_width - bg_edge, y_transform(0));
     ctx.stroke();
 
-    // axis branches
-    x_transform
+    // x axis
+    ctx.beginPath();
+    ctx.setLineDash([]);
+    ctx.moveTo(graph_side, graph_bottom );
+    ctx.lineTo(edge + bg_width - bg_edge, graph_bottom);
+    ctx.stroke();
+
+    // month array for branches
+    var months = ['Jan' ,'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep',
+    'Oct', 'Nov', 'Dec']
+    branch_distance = (bg_width - (2 * bg_edge)) / months.length;
+    var branch_len = 5;
+
+    // initialize text
+    ctx.fillStyle = 'rgb(255, 255, 255)';
+    ctx.font = '10px serif';
+
+    // x axis branches
+    for (l = 0; l < x_array.length; l++){
+
+      if (l != 0 && raw_x_array[l-1].getMonth() != raw_x_array[l].getMonth()){
+
+        // branches
+        ctx.moveTo(x_transform(x_array[l]), graph_bottom);
+        ctx.lineTo(x_transform(x_array[l]), graph_bottom + branch_len);
+        ctx.stroke();
+
+        // month text
+        ctx.fillText(months[raw_x_array[l].getMonth()],
+        x_transform(x_array[l]) + branch_distance / 3,
+        graph_bottom + branch_len * 2);
+
+        // year text
+        if (months[raw_x_array[l].getMonth()] == 'Jan'){
+          ctx.fillText(raw_x_array[l].getFullYear(), x_transform(x_array[l]),
+          graph_bottom + branch_len * 4)
+         }
+
+      // first branch text
+      } else if (l == 0){
+
+        // month text
+        ctx.fillText(months[raw_x_array[l].getMonth()],
+        x_transform(x_array[l]) + 3,
+        graph_bottom + branch_len * 2)
+
+        // year text
+        ctx.fillText(raw_x_array[l].getFullYear(), x_transform(x_array[l]),
+        graph_bottom + branch_len * 4)
+      }
+    };
+
+    // y axis branches
+    for (m = getDomain(y_array)[0]; m <getDomain(y_array)[1]; m++){
+      if (m % 20 == 0){
+        console.log("hi",m)
+        // branches
+        ctx.moveTo(graph_side, y_transform(m));
+        ctx.lineTo(graph_side - branch_len, y_transform(m));
+        ctx.stroke();
+        // degrees
+        ctx.fillText(m/10, graph_side - branch_len * 5, y_transform(m))
+      }
+    }
 
     // starting point of data graph
     ctx.beginPath();
@@ -151,18 +219,34 @@ function drawGraph(x_array, y_array){
     }
     ctx.stroke();
 
-    // title
-    ctx.fillStyle = 'rgb(255, 255, 255)';
-    ctx.font = '16px calibri'
-    ctx.fillText('AVERAGE  TEMPERATURE  IN  DE  BILT  OF  YENTE  STOR\'S  FIRST  YEAR', edge + bg_edge, edge + Math.round(bg_edge/1.5));
+    // titles style
+    ctx.textAlign = 'center';
+    ctx.fillStyle = 'rgb(0, 0, 200)';
+
+    // main title
+    ctx.font = '25px tahoma';
+    ctx.fillText('Temperatures in De Bilt (NL) in Yente Stor\'s First Year',
+    edge + bg_width / 2, edge / 2);
+
+    // x title
+    ctx.font = '18px tahoma';
+    ctx.fillText('Date', edge + bg_width / 2, graph_bottom + bg_edge * 1.5)
+    console.log(graph_bottom+bg_edge)
+
+    // y title
+    y_title = 'average daily temperature (\°C)'
+    ctx.rotate(-Math.PI/2);
+
+    ctx.fillText(y_title, - edge - bg_height/2, graph_side - bg_edge * 1.5)
 
 };
 
 function main(){
 
     data = getData();
-    days_ar = relativeDays(data['dates']);
-    drawGraph(days_ar,data['temps']);
-}
+    // days_ar = relativeDays(data['dates']);
+    drawGraph(data['dates'],data['temps']);
+    console.log(data['temps'])
+};
 
 main()
