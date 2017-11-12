@@ -1,0 +1,48 @@
+var filename= .../data/
+var response
+
+var request = XMLhttpRequest()
+request.onreadystatechange =  function(){}
+  if (this.readyState == 4 && this.status == 200) {
+  ...
+  console.log(this)
+  response = this.responseText
+  calbackexample(response)
+  }
+
+  request.open("HET", filename)
+  request.send
+
+  function callbackexample(response){
+    console.log(json.parse(response).data)
+  }
+
+  console.log()
+
+  window.onload = function()???
+
+  SERVER OPSTARTEN in console (wel eerst naar map waar je project staat):
+python -m SimpleHTTPServer 8080
+
+
+window.unload scripts inladen
+
+Headerfuncties gebruiken voor alle files (met naam, sudentnummer, en nut van de file)
+css en html moeten ook comments
+
+JavaScript style:
+-consistentie
+-multilinemet *etjes
+- // voor singlelinecomments
+- punten en hoofdletters mag
+- variablene namen:kies camel (is standaard) of snake casing (of pascalcasing)
+- rbnb leidende styleguide voor javascript
+- indentatie
+- bronnen
+
+Multifunctionele functies? hardcoding: json.data of json["data"]
+
+debugging met console.log(typeof())
+omdat 110 met een lagere letter begint  dan 90 ziet ie
+console.log("110"<"90") dat 110 kleiner is.
+(dus alleen in deze stringnotatie)
