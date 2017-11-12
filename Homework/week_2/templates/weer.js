@@ -235,7 +235,7 @@ function drawGraph(raw_x_array, y_array){
     console.log(graph_bottom+bg_edge)
 
     // y title
-    y_title = 'average daily temperature (\°C)'
+    y_title = 'average daily temperature (Celsius)'
     ctx.rotate(-Math.PI/2);
 
     ctx.fillText(y_title, - edge - bg_height/2, graph_side - bg_edge * 1.5)
