@@ -200,7 +200,6 @@ function drawGraph(raw_x_array, y_array){
     // y axis branches
     for (m = getDomain(y_array)[0]; m <getDomain(y_array)[1]; m++){
       if (m % 20 == 0){
-        console.log("hi",m)
         // branches
         ctx.moveTo(graph_side, y_transform(m));
         ctx.lineTo(graph_side - branch_len, y_transform(m));
