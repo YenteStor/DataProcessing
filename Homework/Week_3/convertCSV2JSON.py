@@ -8,9 +8,15 @@ import json
 
 csvfile = open('data.csv', 'r')
 jsonfile = open('data.json', 'w')
-fieldnames = ("Date","Etmaalsom van de Neerslag(in 0.1mm)")
-reader = csv.DictReader( csvfile, fieldnames)
+fieldnames = ("Date","Neerslag")
+
+# dictionairy formatting of csv data
+reader = csv.DictReader(csvfile, fieldnames)
+
+# puts readers elements in jsonfile (in rowstyle)
+# jsonfile.write('{"data":[\n')
+# counter = 0
+lijst = []
 for row in reader:
-    json.dump(row, jsonfile)
-    jsonfile.write('\n')
-print jsonfile
+    lijst.append(row)
+json.dump(lijst,jsonfile,indent=4)
