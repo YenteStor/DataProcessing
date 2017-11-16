@@ -6,9 +6,9 @@
 import csv
 import json
 
-csvfile = open('data.csv', 'r')
+csvfile = open('Inwoners-van-15-jaar-en-ouder-die-dagelijks-roken-2012--16-05-30.csv', 'r')
 jsonfile = open('data.json', 'w')
-fieldnames = ("Date","Neerslag")
+fieldnames = ("Land","Rokers")
 
 # dictionairy formatting of csv data
 reader = csv.DictReader(csvfile, fieldnames)
