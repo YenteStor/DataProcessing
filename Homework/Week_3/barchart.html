@@ -1,18 +1,45 @@
 <!DOCTYPE html>
-<html>
-
+<meta charset="utf-8">
 <style>
+
 .chart rect {
-  fill: steelblue;
+  fill: orange;
+}
+.chart rect:hover{
+    fill: lightgreen;
 }
 
 .chart text {
-  fill: white;
+  fill: black;
   font: 10px sans-serif;
-  text-anchor: end;
+  text-anchor: middle;
 }
-</style>
+.axis text {
+  font: 10px sans-serif;
+  /*transform: rotate(60deg);*/
+}
 
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 60px;
+    height: 28px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+
+</style>
 <svg class="chart"></svg>
 
 <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
