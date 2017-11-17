@@ -108,5 +108,4 @@ d3.json("data.json", function(error, data) {
           .duration(500)
           .style("opacity", 0);
       });
-    // chart
   });
