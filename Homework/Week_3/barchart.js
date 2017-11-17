@@ -1,5 +1,18 @@
-// http://bl.ocks.org/d3noob/a22c42db65eb00d4e369
-// https://bost.ocks.org/mike/bar/3/
+/*
+Yente Stor
+University of Amsterdam
+Student Number: 10676643
+
+This program imports data.json set and computes a bargraph in barchart.html
+needs data.json and barchart.html and an internet connection to run.
+run '$ python -m SimpleHTTPServer 8888' and open http://localhost:8888/barchart.html in your browser.
+
+Sources for the barchart and d3 elements.
+http://bl.ocks.org/d3noob/a22c42db65eb00d4e369
+https://bost.ocks.org/mike/bar/3/
+tooltips
+http://bl.ocks.org/d3noob/a22c42db65eb00d4e369
+*/
 
 // canvas margins
 var margin = {top: 20, right: 30, bottom: 80, left: 40},
