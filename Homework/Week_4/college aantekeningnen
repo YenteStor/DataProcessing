@@ -1,0 +1,32 @@
+Downloaden van versies is beter? want updates?
+Scalable vector graphics
+Kleur toevoegen aan vierkantjes en beschrijving toevoegen. Alles gebeurt in javascript met d3? niet in de XML hardcoden
+
+D3
+margin.left gebruiken
+range gaat over pixelwaarden, domain over values in je dataset.
+
+d3.svg.axis is ook een functie
+.orient geeft enkel de locatie
+
+Group element: g
+dan kun je bijvoorbeeld een tekst en een rectangel element samenvoegen: zodat je ze bijvoorbeeld dezelfde lokatie variabele of  op een zelfde
+data element kan baserne.
+
+domain
+.map om het in dezelfde volgorde als de dataset te houden
+
+Kan ook selectAll doen op iets wat niet bestaat: chart.selectAll(".bar")
+Data kun je aan die selectie toeveogen met .data(data)
+Dan kun je daarna bars toevoegen met enter.append("rect"), dit doet ie zo vaak als je elementen hebt in je data.
+(dit gebeurt voor alles na de enter)
+
+var line = d3.line()
+  .x(function(d){return})
+  .y(function(d))
+
+  verschill tussen # en . bij select(./#chart)
+  # is een string van de variabele naam???
+
+  3 variabelen per datapunt (geen tijd gebruiken voor x)
+  4 variabelen voor de extra credit.
