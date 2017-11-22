@@ -49,6 +49,10 @@ var div = d3.select("body").append("div")
 
 // load data
 d3.json("data.json", function(error, data) {
+    if (error){
+      alert(error)
+    }
+
     // get data
     data.forEach(function(d) {
         d.Land = d.Land;
