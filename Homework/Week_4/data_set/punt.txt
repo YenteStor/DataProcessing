@@ -1,0 +1,122 @@
+Lung Incidence Male	2002	Tobacco Use	
+Albania	58.9	Albania	40.5
+Algeria	16.9	Algeria	29.9
+Argentina	43.3	Argentina	34.6
+Armenia	58.9	Armenia	55.1
+Australia	39.5	Australia	27.7
+Austria	42.6	Austria	46.4
+Bahrain	30.5	Bahrain	26.1
+Bangladesh	22.4	Bangladesh	47
+Barbados	15.3	Barbados	18.4
+Belarus	65.6	Belarus	63.7
+Belgium	75.3	Belgium	30.1
+Bolivia	12.6	Bolivia	34.1
+Bosnia and Herzegovina	63	Bosnia and Herzegovina	49.3
+Bulgaria	45.6	Bulgaria	47.5
+Burkina Faso	4.7	Burkina Faso	22
+Cambodia	22.5	Cambodia	40.5
+Cameroon	3	Cameroon	12.6
+Canada	55.8	Canada	24.3
+Chad	4.7	Chad	16
+Chile	26.1	Chile	42.1
+China	42.4	China	59.5
+Comoros	3.6	Comoros	27.7
+Congo. Dem. Rep.	4.5	Congo. Dem. Rep.	13.5
+Congo. Rep.	3.8	Congo. Rep.	12.1
+Costa Rica	12.5	Costa Rica	26.1
+Cote d'Ivoire	6.1	Cote d'Ivoire	15.4
+Croatia	76.4	Croatia	38.9
+Cuba	40	Cuba	43.4
+Czech Rep.	66.1	Czech Rep.	36.6
+Denmark	45.3	Denmark	36.1
+Dominican Rep.	18.6	Dominican Rep.	17.5
+Ecuador	10.5	Ecuador	23.9
+Egypt	8.6	Egypt	28.7
+Eritrea	3.6	Eritrea	16.9
+Estonia	67.7	Estonia	49.9
+Ethiopia	2.7	Ethiopia	7.6
+Fiji	0.5	Fiji	23.6
+Finland	33.4	Finland	31.8
+France	52.6	France	36.6
+Gambia	5	Gambia	29.3
+Georgia	37.2	Georgia	57.1
+Germany	46.7	Germany	37.4
+Ghana	2.4	Ghana	10.2
+Greece	58	Greece	63.6
+Guatemala	16.1	Guatemala	24.5
+Hungary	94.6	Hungary	45.7
+Iceland	30	Iceland	26.1
+India	9	India	33.1
+Indonesia	20	Indonesia	65.9
+Iran	7.2	Iran	29.6
+Iraq	22.7	Iraq	25.8
+Ireland	39.8	Ireland	26.5
+Israel	27.2	Israel	31.1
+Italy	58	Italy	32.8
+Jamaica	24.1	Jamaica	20.8
+Japan	38.1	Japan	44.3
+Jordan	16.5	Jordan	62.7
+Kazakhstan	77.4	Kazakhstan	43.2
+Kenya	4.2	Kenya	27.1
+Korea. Dem. Rep.	53.3	Korea. Dem. Rep.	58.6
+Korea. Rep.	53.3	Korea. Rep.	53.3
+Kyrgyzstan	31.3	Kyrgyzstan	46.9
+Laos	18.3	Laos	65
+Latvia	60.3	Latvia	54.4
+Lebanon	31.3	Lebanon	29.1
+Lithuania	57.5	Lithuania	45.1
+Luxembourg	61.3	Luxembourg	39.1
+Malawi	2.5	Malawi	23.7
+Malaysia	30	Malaysia	54.4
+Mali	2.8	Mali	19.5
+Malta	41.1	Malta	32.8
+Mauritania	2.4	Mauritania	22.3
+Mauritius	15.8	Mauritius	35.7
+Mexico	17	Mexico	36.9
+Moldova	39.4	Moldova	45.8
+Mongolia	31.8	Mongolia	45.8
+Morocco	20.1	Morocco	29.5
+Mozambique	1.8	Mozambique	22
+Myanmar	27.6	Myanmar	46.5
+Namibia	6.1	Namibia	38.6
+Nepal	11.9	Nepal	34.8
+Netherlands	59.7	Netherlands	38.3
+New Zealand	37.3	New Zealand	29.7
+Nigeria	1.1	Nigeria	13
+Norway	36.4	Norway	33.6
+Oman	9.6	Oman	24.7
+Pakistan	20.1	Pakistan	35.4
+Paraguay	19.8	Paraguay	33
+Philippines	50.2	Philippines	42
+Poland	82	Poland	43.9
+Portugal	34.2	Portugal	40.6
+Romania	50	Romania	40.6
+Russia	66.8	Russia	70.1
+Samoa	17.4	Samoa	58.3
+Saudi Arabia	10.3	Saudi Arabia	25.6
+Senegal	1.4	Senegal	19.8
+Slovak Republic	67.5	Slovak Republic	41.6
+Slovenia	57.1	Slovenia	31.8
+South Africa	25	South Africa	27.5
+Spain	55.8	Spain	36.4
+Sri Lanka	9.9	Sri Lanka	30.2
+Swaziland	9.6	Swaziland	14.6
+Sweden	21.1	Sweden	19.6
+Switzerland	44.6	Switzerland	30.7
+Syria	32.9	Syria	44
+Tanzania	2	Tanzania	24.8
+Thailand	25.5	Thailand	39.8
+Trinidad and Tobago	14.3	Trinidad and Tobago	36.4
+Tunisia	27.8	Tunisia	51
+Turkey	47.7	Turkey	51.6
+Uganda	3.3	Uganda	20.9
+United Arab Emirates	13.7	United Arab Emirates	26.1
+United Kingdom	48.1	United Kingdom	36.7
+United States	61.9	United States	26.3
+Uruguay	60	Uruguay	37.1
+Uzbekistan	17.1	Uzbekistan	24.2
+Vanuatu	13.6	Vanuatu	49.1
+Venezuela	18.6	Venezuela	32.5
+Vietnam	29.6	Vietnam	45.7
+Zambia	6.6	Zambia	21.7
+Zimbabwe	12.3	Zimbabwe	25.5

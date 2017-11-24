@@ -1,0 +1,154 @@
+﻿Country,lc incidence,tobacco use
+Albania,58.9,40.5
+Algeria,16.9,29.9
+Argentina,43.3,34.6
+Armenia,58.9,55.1
+Australia,39.5,27.7
+Austria,42.6,46.4
+Bahrain,30.5,26.1
+Bangladesh,22.4,47
+Barbados,15.3,18.4
+Belarus,65.6,63.7
+Belgium,75.3,30.1
+Bolivia,12.6,34.1
+Bosnia and Herzegovina,63,49.3
+Bulgaria,45.6,47.5
+Burkina Faso,4.7,22
+Cambodia,22.5,40.5
+Cameroon,3,12.6
+Canada,55.8,24.3
+Chad,4.7,16
+Chile,26.1,42.1
+China,42.4,59.5
+Comoros,3.6,27.7
+Congo. Dem. Rep.,4.5,13.5
+Congo. Rep.,3.8,12.1
+Costa Rica,12.5,26.1
+Cote d'Ivoire,6.1,15.4
+Croatia,76.4,38.9
+Cuba,40,43.4
+Czech Rep.,66.1,36.6
+Denmark,45.3,36.1
+Dominican Rep.,18.6,17.5
+Ecuador,10.5,23.9
+Egypt,8.6,28.7
+Eritrea,3.6,16.9
+Estonia,67.7,49.9
+Ethiopia,2.7,7.6
+Fiji,0.5,23.6
+Finland,33.4,31.8
+France,52.6,36.6
+Gambia,5,29.3
+Georgia,37.2,57.1
+Germany,46.7,37.4
+Ghana,2.4,10.2
+Greece,58,63.6
+Guatemala,16.1,24.5
+Hungary,94.6,45.7
+Iceland,30,26.1
+India,9,33.1
+Indonesia,20,65.9
+Iran,7.2,29.6
+Iraq,22.7,25.8
+Ireland,39.8,26.5
+Israel,27.2,31.1
+Italy,58,32.8
+Jamaica,24.1,20.8
+Japan,38.1,44.3
+Jordan,16.5,62.7
+Kazakhstan,77.4,43.2
+Kenya,4.2,27.1
+Korea. Dem. Rep.,53.3,58.6
+Korea. Rep.,53.3,53.3
+Kyrgyzstan,31.3,46.9
+Laos,18.3,65
+Latvia,60.3,54.4
+Lebanon,31.3,29.1
+Lithuania,57.5,45.1
+Luxembourg,61.3,39.1
+Malawi,2.5,23.7
+Malaysia,30,54.4
+Mali,2.8,19.5
+Malta,41.1,32.8
+Mauritania,2.4,22.3
+Mauritius,15.8,35.7
+Mexico,17,36.9
+Moldova,39.4,45.8
+Mongolia,31.8,45.8
+Morocco,20.1,29.5
+Mozambique,1.8,22
+Myanmar,27.6,46.5
+Namibia,6.1,38.6
+Nepal,11.9,34.8
+Netherlands,59.7,38.3
+New Zealand,37.3,29.7
+Nigeria,1.1,13
+Norway,36.4,33.6
+Oman,9.6,24.7
+Pakistan,20.1,35.4
+Paraguay,19.8,33
+Philippines,50.2,42
+Poland,82,43.9
+Portugal,34.2,40.6
+Romania,50,40.6
+Russia,66.8,70.1
+Samoa,17.4,58.3
+Saudi Arabia,10.3,25.6
+Senegal,1.4,19.8
+Slovak Republic,67.5,41.6
+Slovenia,57.1,31.8
+South Africa,25,27.5
+Spain,55.8,36.4
+Sri Lanka,9.9,30.2
+Swaziland,9.6,14.6
+Sweden,21.1,19.6
+Switzerland,44.6,30.7
+Syria,32.9,44
+Tanzania,2,24.8
+Thailand,25.5,39.8
+Trinidad and Tobago,14.3,36.4
+Tunisia,27.8,51
+Turkey,47.7,51.6
+Uganda,3.3,20.9
+United Arab Emirates,13.7,26.1
+United Kingdom,48.1,36.7
+United States,61.9,26.3
+Uruguay,60,37.1
+Uzbekistan,17.1,24.2
+Vanuatu,13.6,49.1
+Venezuela,18.6,32.5
+Vietnam,29.6,45.7
+Zambia,6.6,21.7
+Zimbabwe,12.3,25.5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

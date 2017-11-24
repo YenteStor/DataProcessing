@@ -1,0 +1,607 @@
+[
+    {
+        "country": "\ufeffAlbania", 
+        "lc_incidence": "58.9", 
+        "smokers": "40.5"
+    }, 
+    {
+        "country": "Algeria", 
+        "lc_incidence": "16.9", 
+        "smokers": "29.9"
+    }, 
+    {
+        "country": "Argentina", 
+        "lc_incidence": "43.3", 
+        "smokers": "34.6"
+    }, 
+    {
+        "country": "Armenia", 
+        "lc_incidence": "58.9", 
+        "smokers": "55.1"
+    }, 
+    {
+        "country": "Australia", 
+        "lc_incidence": "39.5", 
+        "smokers": "27.7"
+    }, 
+    {
+        "country": "Austria", 
+        "lc_incidence": "42.6", 
+        "smokers": "46.4"
+    }, 
+    {
+        "country": "Bahrain", 
+        "lc_incidence": "30.5", 
+        "smokers": "26.1"
+    }, 
+    {
+        "country": "Bangladesh", 
+        "lc_incidence": "22.4", 
+        "smokers": "47"
+    }, 
+    {
+        "country": "Barbados", 
+        "lc_incidence": "15.3", 
+        "smokers": "18.4"
+    }, 
+    {
+        "country": "Belarus", 
+        "lc_incidence": "65.6", 
+        "smokers": "63.7"
+    }, 
+    {
+        "country": "Belgium", 
+        "lc_incidence": "75.3", 
+        "smokers": "30.1"
+    }, 
+    {
+        "country": "Bolivia", 
+        "lc_incidence": "12.6", 
+        "smokers": "34.1"
+    }, 
+    {
+        "country": "Bosnia and Herzegovina", 
+        "lc_incidence": "63", 
+        "smokers": "49.3"
+    }, 
+    {
+        "country": "Bulgaria", 
+        "lc_incidence": "45.6", 
+        "smokers": "47.5"
+    }, 
+    {
+        "country": "Burkina Faso", 
+        "lc_incidence": "4.7", 
+        "smokers": "22"
+    }, 
+    {
+        "country": "Cambodia", 
+        "lc_incidence": "22.5", 
+        "smokers": "40.5"
+    }, 
+    {
+        "country": "Cameroon", 
+        "lc_incidence": "3", 
+        "smokers": "12.6"
+    }, 
+    {
+        "country": "Canada", 
+        "lc_incidence": "55.8", 
+        "smokers": "24.3"
+    }, 
+    {
+        "country": "Chad", 
+        "lc_incidence": "4.7", 
+        "smokers": "16"
+    }, 
+    {
+        "country": "Chile", 
+        "lc_incidence": "26.1", 
+        "smokers": "42.1"
+    }, 
+    {
+        "country": "China", 
+        "lc_incidence": "42.4", 
+        "smokers": "59.5"
+    }, 
+    {
+        "country": "Comoros", 
+        "lc_incidence": "3.6", 
+        "smokers": "27.7"
+    }, 
+    {
+        "country": "Congo. Dem. Rep.", 
+        "lc_incidence": "4.5", 
+        "smokers": "13.5"
+    }, 
+    {
+        "country": "Congo. Rep.", 
+        "lc_incidence": "3.8", 
+        "smokers": "12.1"
+    }, 
+    {
+        "country": "Costa Rica", 
+        "lc_incidence": "12.5", 
+        "smokers": "26.1"
+    }, 
+    {
+        "country": "Cote d'Ivoire", 
+        "lc_incidence": "6.1", 
+        "smokers": "15.4"
+    }, 
+    {
+        "country": "Croatia", 
+        "lc_incidence": "76.4", 
+        "smokers": "38.9"
+    }, 
+    {
+        "country": "Cuba", 
+        "lc_incidence": "40", 
+        "smokers": "43.4"
+    }, 
+    {
+        "country": "Czech Rep.", 
+        "lc_incidence": "66.1", 
+        "smokers": "36.6"
+    }, 
+    {
+        "country": "Denmark", 
+        "lc_incidence": "45.3", 
+        "smokers": "36.1"
+    }, 
+    {
+        "country": "Dominican Rep.", 
+        "lc_incidence": "18.6", 
+        "smokers": "17.5"
+    }, 
+    {
+        "country": "Ecuador", 
+        "lc_incidence": "10.5", 
+        "smokers": "23.9"
+    }, 
+    {
+        "country": "Egypt", 
+        "lc_incidence": "8.6", 
+        "smokers": "28.7"
+    }, 
+    {
+        "country": "Eritrea", 
+        "lc_incidence": "3.6", 
+        "smokers": "16.9"
+    }, 
+    {
+        "country": "Estonia", 
+        "lc_incidence": "67.7", 
+        "smokers": "49.9"
+    }, 
+    {
+        "country": "Ethiopia", 
+        "lc_incidence": "2.7", 
+        "smokers": "7.6"
+    }, 
+    {
+        "country": "Fiji", 
+        "lc_incidence": "0.5", 
+        "smokers": "23.6"
+    }, 
+    {
+        "country": "Finland", 
+        "lc_incidence": "33.4", 
+        "smokers": "31.8"
+    }, 
+    {
+        "country": "France", 
+        "lc_incidence": "52.6", 
+        "smokers": "36.6"
+    }, 
+    {
+        "country": "Gambia", 
+        "lc_incidence": "5", 
+        "smokers": "29.3"
+    }, 
+    {
+        "country": "Georgia", 
+        "lc_incidence": "37.2", 
+        "smokers": "57.1"
+    }, 
+    {
+        "country": "Germany", 
+        "lc_incidence": "46.7", 
+        "smokers": "37.4"
+    }, 
+    {
+        "country": "Ghana", 
+        "lc_incidence": "2.4", 
+        "smokers": "10.2"
+    }, 
+    {
+        "country": "Greece", 
+        "lc_incidence": "58", 
+        "smokers": "63.6"
+    }, 
+    {
+        "country": "Guatemala", 
+        "lc_incidence": "16.1", 
+        "smokers": "24.5"
+    }, 
+    {
+        "country": "Hungary", 
+        "lc_incidence": "94.6", 
+        "smokers": "45.7"
+    }, 
+    {
+        "country": "Iceland", 
+        "lc_incidence": "30", 
+        "smokers": "26.1"
+    }, 
+    {
+        "country": "India", 
+        "lc_incidence": "9", 
+        "smokers": "33.1"
+    }, 
+    {
+        "country": "Indonesia", 
+        "lc_incidence": "20", 
+        "smokers": "65.9"
+    }, 
+    {
+        "country": "Iran", 
+        "lc_incidence": "7.2", 
+        "smokers": "29.6"
+    }, 
+    {
+        "country": "Iraq", 
+        "lc_incidence": "22.7", 
+        "smokers": "25.8"
+    }, 
+    {
+        "country": "Ireland", 
+        "lc_incidence": "39.8", 
+        "smokers": "26.5"
+    }, 
+    {
+        "country": "Israel", 
+        "lc_incidence": "27.2", 
+        "smokers": "31.1"
+    }, 
+    {
+        "country": "Italy", 
+        "lc_incidence": "58", 
+        "smokers": "32.8"
+    }, 
+    {
+        "country": "Jamaica", 
+        "lc_incidence": "24.1", 
+        "smokers": "20.8"
+    }, 
+    {
+        "country": "Japan", 
+        "lc_incidence": "38.1", 
+        "smokers": "44.3"
+    }, 
+    {
+        "country": "Jordan", 
+        "lc_incidence": "16.5", 
+        "smokers": "62.7"
+    }, 
+    {
+        "country": "Kazakhstan", 
+        "lc_incidence": "77.4", 
+        "smokers": "43.2"
+    }, 
+    {
+        "country": "Kenya", 
+        "lc_incidence": "4.2", 
+        "smokers": "27.1"
+    }, 
+    {
+        "country": "Korea. Dem. Rep.", 
+        "lc_incidence": "53.3", 
+        "smokers": "58.6"
+    }, 
+    {
+        "country": "Korea. Rep.", 
+        "lc_incidence": "53.3", 
+        "smokers": "53.3"
+    }, 
+    {
+        "country": "Kyrgyzstan", 
+        "lc_incidence": "31.3", 
+        "smokers": "46.9"
+    }, 
+    {
+        "country": "Laos", 
+        "lc_incidence": "18.3", 
+        "smokers": "65"
+    }, 
+    {
+        "country": "Latvia", 
+        "lc_incidence": "60.3", 
+        "smokers": "54.4"
+    }, 
+    {
+        "country": "Lebanon", 
+        "lc_incidence": "31.3", 
+        "smokers": "29.1"
+    }, 
+    {
+        "country": "Lithuania", 
+        "lc_incidence": "57.5", 
+        "smokers": "45.1"
+    }, 
+    {
+        "country": "Luxembourg", 
+        "lc_incidence": "61.3", 
+        "smokers": "39.1"
+    }, 
+    {
+        "country": "Malawi", 
+        "lc_incidence": "2.5", 
+        "smokers": "23.7"
+    }, 
+    {
+        "country": "Malaysia", 
+        "lc_incidence": "30", 
+        "smokers": "54.4"
+    }, 
+    {
+        "country": "Mali", 
+        "lc_incidence": "2.8", 
+        "smokers": "19.5"
+    }, 
+    {
+        "country": "Malta", 
+        "lc_incidence": "41.1", 
+        "smokers": "32.8"
+    }, 
+    {
+        "country": "Mauritania", 
+        "lc_incidence": "2.4", 
+        "smokers": "22.3"
+    }, 
+    {
+        "country": "Mauritius", 
+        "lc_incidence": "15.8", 
+        "smokers": "35.7"
+    }, 
+    {
+        "country": "Mexico", 
+        "lc_incidence": "17", 
+        "smokers": "36.9"
+    }, 
+    {
+        "country": "Moldova", 
+        "lc_incidence": "39.4", 
+        "smokers": "45.8"
+    }, 
+    {
+        "country": "Mongolia", 
+        "lc_incidence": "31.8", 
+        "smokers": "45.8"
+    }, 
+    {
+        "country": "Morocco", 
+        "lc_incidence": "20.1", 
+        "smokers": "29.5"
+    }, 
+    {
+        "country": "Mozambique", 
+        "lc_incidence": "1.8", 
+        "smokers": "22"
+    }, 
+    {
+        "country": "Myanmar", 
+        "lc_incidence": "27.6", 
+        "smokers": "46.5"
+    }, 
+    {
+        "country": "Namibia", 
+        "lc_incidence": "6.1", 
+        "smokers": "38.6"
+    }, 
+    {
+        "country": "Nepal", 
+        "lc_incidence": "11.9", 
+        "smokers": "34.8"
+    }, 
+    {
+        "country": "Netherlands", 
+        "lc_incidence": "59.7", 
+        "smokers": "38.3"
+    }, 
+    {
+        "country": "New Zealand", 
+        "lc_incidence": "37.3", 
+        "smokers": "29.7"
+    }, 
+    {
+        "country": "Nigeria", 
+        "lc_incidence": "1.1", 
+        "smokers": "13"
+    }, 
+    {
+        "country": "Norway", 
+        "lc_incidence": "36.4", 
+        "smokers": "33.6"
+    }, 
+    {
+        "country": "Oman", 
+        "lc_incidence": "9.6", 
+        "smokers": "24.7"
+    }, 
+    {
+        "country": "Pakistan", 
+        "lc_incidence": "20.1", 
+        "smokers": "35.4"
+    }, 
+    {
+        "country": "Paraguay", 
+        "lc_incidence": "19.8", 
+        "smokers": "33"
+    }, 
+    {
+        "country": "Philippines", 
+        "lc_incidence": "50.2", 
+        "smokers": "42"
+    }, 
+    {
+        "country": "Poland", 
+        "lc_incidence": "82", 
+        "smokers": "43.9"
+    }, 
+    {
+        "country": "Portugal", 
+        "lc_incidence": "34.2", 
+        "smokers": "40.6"
+    }, 
+    {
+        "country": "Romania", 
+        "lc_incidence": "50", 
+        "smokers": "40.6"
+    }, 
+    {
+        "country": "Russia", 
+        "lc_incidence": "66.8", 
+        "smokers": "70.1"
+    }, 
+    {
+        "country": "Samoa", 
+        "lc_incidence": "17.4", 
+        "smokers": "58.3"
+    }, 
+    {
+        "country": "Saudi Arabia", 
+        "lc_incidence": "10.3", 
+        "smokers": "25.6"
+    }, 
+    {
+        "country": "Senegal", 
+        "lc_incidence": "1.4", 
+        "smokers": "19.8"
+    }, 
+    {
+        "country": "Slovak Republic", 
+        "lc_incidence": "67.5", 
+        "smokers": "41.6"
+    }, 
+    {
+        "country": "Slovenia", 
+        "lc_incidence": "57.1", 
+        "smokers": "31.8"
+    }, 
+    {
+        "country": "South Africa", 
+        "lc_incidence": "25", 
+        "smokers": "27.5"
+    }, 
+    {
+        "country": "Spain", 
+        "lc_incidence": "55.8", 
+        "smokers": "36.4"
+    }, 
+    {
+        "country": "Sri Lanka", 
+        "lc_incidence": "9.9", 
+        "smokers": "30.2"
+    }, 
+    {
+        "country": "Swaziland", 
+        "lc_incidence": "9.6", 
+        "smokers": "14.6"
+    }, 
+    {
+        "country": "Sweden", 
+        "lc_incidence": "21.1", 
+        "smokers": "19.6"
+    }, 
+    {
+        "country": "Switzerland", 
+        "lc_incidence": "44.6", 
+        "smokers": "30.7"
+    }, 
+    {
+        "country": "Syria", 
+        "lc_incidence": "32.9", 
+        "smokers": "44"
+    }, 
+    {
+        "country": "Tanzania", 
+        "lc_incidence": "2", 
+        "smokers": "24.8"
+    }, 
+    {
+        "country": "Thailand", 
+        "lc_incidence": "25.5", 
+        "smokers": "39.8"
+    }, 
+    {
+        "country": "Trinidad and Tobago", 
+        "lc_incidence": "14.3", 
+        "smokers": "36.4"
+    }, 
+    {
+        "country": "Tunisia", 
+        "lc_incidence": "27.8", 
+        "smokers": "51"
+    }, 
+    {
+        "country": "Turkey", 
+        "lc_incidence": "47.7", 
+        "smokers": "51.6"
+    }, 
+    {
+        "country": "Uganda", 
+        "lc_incidence": "3.3", 
+        "smokers": "20.9"
+    }, 
+    {
+        "country": "United Arab Emirates", 
+        "lc_incidence": "13.7", 
+        "smokers": "26.1"
+    }, 
+    {
+        "country": "United Kingdom", 
+        "lc_incidence": "48.1", 
+        "smokers": "36.7"
+    }, 
+    {
+        "country": "United States", 
+        "lc_incidence": "61.9", 
+        "smokers": "26.3"
+    }, 
+    {
+        "country": "Uruguay", 
+        "lc_incidence": "60", 
+        "smokers": "37.1"
+    }, 
+    {
+        "country": "Uzbekistan", 
+        "lc_incidence": "17.1", 
+        "smokers": "24.2"
+    }, 
+    {
+        "country": "Vanuatu", 
+        "lc_incidence": "13.6", 
+        "smokers": "49.1"
+    }, 
+    {
+        "country": "Venezuela", 
+        "lc_incidence": "18.6", 
+        "smokers": "32.5"
+    }, 
+    {
+        "country": "Vietnam", 
+        "lc_incidence": "29.6", 
+        "smokers": "45.7"
+    }, 
+    {
+        "country": "Zambia", 
+        "lc_incidence": "6.6", 
+        "smokers": "21.7"
+    }, 
+    {
+        "country": "Zimbabwe", 
+        "lc_incidence": "12.3", 
+        "smokers": "25.5"
+    }
+]
