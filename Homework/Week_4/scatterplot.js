@@ -41,7 +41,7 @@ d3.json("data.json", function(error, data) {
   if (error){
     console.log(error)
   }
-
+  console.log(data)
   // get data
   data.forEach(function(d) {
       d.lc_incidence = +d.lc_incidence;
@@ -109,6 +109,7 @@ d3.json("data.json", function(error, data) {
 
     };
   // data dots
+  console.log(data)
   svg.selectAll(".dot")
       .data(data)
     .enter().append("circle")
@@ -116,7 +117,7 @@ d3.json("data.json", function(error, data) {
       .attr("r", 3.5)
       .attr("cx", function(d) { return x(d.smokers); })
       .attr("cy", function(d) { return y(d.lc_incidence); })
-      .style("fill", function(d) { return color(d.country); })
+      .style("fill", function(d) {return color(d.continent); })
       .on("mouseover", tipMouseover)
       .on("mouseout", tipMouseout);
 
@@ -125,7 +126,7 @@ d3.json("data.json", function(error, data) {
         .data(color.domain())
       .enter().append("g")
         .attr("class", "legend")
-        .attr("transform", function(d, i) { return "translate(0," + i * 10 + ")"; });
+        .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
 
   legend.append("rect")
       .attr("x", width - 18)
