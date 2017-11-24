@@ -5,6 +5,8 @@ Student (10676643) of Data Processing course of University of Amsterdam (2017)
 
 Sources:
 changing radius of dots: http://bl.ocks.org/WilliamQLiu/76ae20060e19bf42d774
+Scatterplot general: https://bl.ocks.org/mbostock/3887118
+Mouse events:http://bl.ocks.org/WilliamQLiu/76ae20060e19bf42d774
 */
 // set margins
 var margin = {top: 20, right: 20, bottom: 30, left: 40},
@@ -34,7 +36,6 @@ var yAxis = d3.svg.axis()
 
 var color = d3.scale.category10();
 
-
 // load data
 d3.json("data.json", function(error, data) {
   if (error){
@@ -47,9 +48,11 @@ d3.json("data.json", function(error, data) {
       d.smokers = +d.smokers;
   });
 
+  // Scale x and y
   x.domain(d3.extent(data, function(d) { return d.smokers; })).nice();
   y.domain(d3.extent(data, function(d) { return d.lc_incidence; })).nice();
 
+  // add x xAxis
   svg.append("g")
     .attr("class", "x axis")
     .attr("transform", "translate(0," + height + ")")
@@ -61,6 +64,7 @@ d3.json("data.json", function(error, data) {
     .style("text-anchor", "end")
     .text("Smoking population (%)");
 
+  // add y axis
   svg.append("g")
     .attr("class", "y axis")
     .call(yAxis)
@@ -70,21 +74,23 @@ d3.json("data.json", function(error, data) {
     .attr("y", 6)
     .attr("dy", ".71em")
     .style("text-anchor", "end")
-    .text("Male Lung Cancer Incidence");
+    .text("Lung Cancer Incidence (per 100 000 males)");
 
-    var tooltip = d3.select("body").append("div")
+  // create tooltip
+  var tooltip = d3.select("body").append("div")
                   .attr("class", "tooltip")
                   .style("opacity", 0);
 
-    // tooltip mouseover event handler
-    var tipMouseover = function(d) {
-        // var color = colorScale(d.country);
-        var html  = "<span style='color:" + color + ";'>" + d.country + "</span><br/>" +
-                    "<b>" + d.lc_incidence + "</b> Lung cancer <br/>" +
-                    d.smokers + "</b> Smoking";
-
+  // tooltip mouseover event handler
+  var tipMouseover = function(d) {
+        // show info text
+        var html  = d.country + "</span><br/>" +
+                    "<b> Lung cancer incidence: </b>" + d.lc_incidence +
+                    " <br/>Smoking population: </b>" + d.smokers;
+        // alter dot size
         d3.select(this).attr({ r: 6 });
 
+        //
         tooltip.html(html)
             .style("left", (d3.event.pageX + 15) + "px")
             .style("top", (d3.event.pageY - 28) + "px")
@@ -102,7 +108,7 @@ d3.json("data.json", function(error, data) {
           .style("opacity", 0);
 
     };
-
+  // data dots
   svg.selectAll(".dot")
       .data(data)
     .enter().append("circle")
@@ -114,11 +120,12 @@ d3.json("data.json", function(error, data) {
       .on("mouseover", tipMouseover)
       .on("mouseout", tipMouseout);
 
+  // add legend item
   var legend = svg.selectAll(".legend")
         .data(color.domain())
       .enter().append("g")
         .attr("class", "legend")
-        .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+        .attr("transform", function(d, i) { return "translate(0," + i * 10 + ")"; });
 
   legend.append("rect")
       .attr("x", width - 18)
