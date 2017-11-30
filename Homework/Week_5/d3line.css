@@ -1,0 +1,36 @@
+/*
+Yente Stor
+yentestor@gmail.com
+Student (10676643) of Data Processing course of University of Amsterdam (2017)
+
+styling for d3line.html
+*/
+body {
+  font: 15px helvetica;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: none;
+}
+
+.tooltip {
+  position: absolute;
+  font-size: 12px;
+  width: auto;
+  height: auto;
+  pointer-events: none;
+  background-color: lightsteelblue;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
