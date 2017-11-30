@@ -86,7 +86,7 @@ d3.json("data.json", function(error, data) {
         // show info text
         var html  = d.country + "</span><br/>" +
                     "<b> Lung cancer incidence: </b>" + d.lc_incidence +
-                    " <br/>Smoking population: </b>" + d.smokers;
+                    "<br/>Smoking population: </b>" + d.smokers;
         // alter dot size
         d3.select(this).attr({ r: 6 });
 
