@@ -6,8 +6,8 @@
 import csv
 import json
 
-csvfile = open('KNMI_20161231_stripped.csv', 'r')
-jsonfile = open('data.json', 'w')
+csvfile = open('KNMI_20151231_stripped.csv', 'r')
+jsonfile = open('data2015.json', 'w')
 
 fieldnames = ("date","gem","mini","maxi")
 

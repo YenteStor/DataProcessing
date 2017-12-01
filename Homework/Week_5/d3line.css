@@ -16,21 +16,9 @@ body {
   shape-rendering: crispEdges;
 }
 
-.dot {
-  stroke: none;
-}
-
-.tooltip {
-  position: absolute;
-  font-size: 12px;
-  width: auto;
-  height: auto;
-  pointer-events: none;
-  background-color: lightsteelblue;
-}
 
 .line {
   fill: none;
-  stroke: steelblue;
+  stroke: black;
   stroke-width: 1.5px;
 }
