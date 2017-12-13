@@ -1,0 +1,60 @@
+validate html online met een validator
+meta tech moet in head
+h2 en selector in body
+html moet ook titel hebben.
+
+alles moet in de body behalve meta, title, link, script, style(css)
+
+css
+selecteren van de dingen bovenaan je css: h1,p, .caption (opzoeken hoe je elementen selecteert, je kan dus meerdere elementen tegelijk stylen)
+??? parent classes wut
+vb meerdere elementen:
+h1 p, h1, td {
+    font-size: 12px;
+};
+
+classe namen toevoegen om ze dezelde style te geven, id geef je aan dingen die maar 1 keer voorkomen (maar id en classe werken in principe hetzelfde)
+Hij pakt de eerste id van je element voor styling. geef elementen zowel classe als id, waarbij id dus uniek is.
+
+f#div7 achter je url zetten scrolt naar de div met id 7
+
+hashvalues
+
+index.html
+datamap met datamap bestanden
+stylemap met css
+
+let op styling van comments:
+multiline comments /**/
+uitgecommente code weghalen
+
+kopje vier van rubriks staat onder guidelines
+
+consistent met indentatie en punt-komma's
+
+slider beter voor omgaan met data?
+
+Niet  functie die dataset opnieuw inlaadt maar 2 functies:
+- 1 die de grafiek inlaadt
+- 1 die de data inlaadt
+
+cannot read property of innerHTML of null: input van interhtml is null, kan komen doordat div pas inlaad nadat het script wordt aangeroepen
+in window.onload gooien zorgt ervoor dat dit wordt opgelost. window.onload kun je ook in je body van html gooien.
+
+"use strict"; aan begin van je code
+-> zorgt ervoor dat je je aan strengere regels moet houden in javascript. (semicolons, vars etc)
+
+uncaught reference error d3, gebeurt als je je library inlaadt later dan je script.
+
+
+-------------------------------------------RUBRIC------------------------------------------
+NAMES: folders files functions fariables: consistentie van casing en taal (engels-nl).
+HEADERS: naam, studentnummer, doel van de file en eventuele referenties, alles behalve jsons csvs etc.
+COMMENTS: alles in 1 taal en zelfde stijl, hebben doel en leggen iets uit wat anders niet in 1x te zien is. moeten ook waar zijn ;)
+LAYOUT: opbouw van de file, is het in 1 keer te begrijpen, logische volgorde van functies, niet veel ruimte tussen aanmaken en gebruiken van functies bijvoorbeeld.
+FORMATTING: leesbaarheid van de code: indentatie, witregels, spaties rondom variablen en operators en acolades
+FLOW: pad door de code, hou overzichtelijk en zorg dat voor geen duplicate code
+    (mooiste is om javascript files te zien als libraries, en de functies daaruit aanroepen in 1 overkoepelend js functie/bestand)
+IDIOM: slim gebruik maken van libraries en ingebouwde js methodse van objecten.
+EXPRESSION: if else statememts moeten makkelijk te begrijpen zijn zorg dat de data types van alles een correct type s (datatype bijv)
+DECOMPOSITION/MODULARISATION: zorg dat 1 stuk code 1 ding doet (functies) met niet meer globale variabelen dan nodig

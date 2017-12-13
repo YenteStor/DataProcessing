@@ -1,0 +1,21 @@
+/*
+Source:
+- https://bl.ocks.org/MariellaCC/0055298b94fcf2c16940
+*/
+
+svg {
+				background-color: white;
+	}
+
+.makerInfo {
+	color: rgb(115, 115, 115);
+	font-size: 11px;
+	font-family: sans-serif;
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+path:hover {
+	fill: rgba(8, 81, 156, 0.2);
+	cursor:pointer;
+}

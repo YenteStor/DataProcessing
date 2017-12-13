@@ -1,0 +1,102 @@
+[
+    {
+        "country": "Norway",
+        "male": "12.6",
+        "female": "6.2"
+    },
+    {
+        "country": "Spain",
+        "male": "9.4",
+        "female": "2.9"
+    },
+    {
+        "country": "Netherlands",
+        "male": "12.9",
+        "female": "6.0"
+    },
+    {
+        "country": "Switzerland",
+        "male": "15.5",
+        "female": "6.0"
+    },
+    {
+        "country": "Denmark",
+        "male": "13.5",
+        "female": "4.7"
+    },
+    {
+        "country": "United Kingdom",
+        "male": "11.7",
+        "female": "3.2"
+    },
+    {
+        "country": "Finland",
+        "male": "21.4",
+        "female": "7.2"
+    },
+    {
+        "country": "Iceland",
+        "male": "17.2",
+        "female": "6.3"
+    },
+    {
+        "country": "Cyprus",
+        "male": "6.7",
+        "female": "1.0"
+    },
+    {
+        "country": "Austria",
+        "male": "18.5",
+        "female": "5.3"
+    },
+    {
+        "country": "France",
+        "male": "19.0",
+        "female": "5.9"
+    },
+    {
+        "country": "Ireland",
+        "male": "18.0",
+        "female": "4.2"
+    },
+    {
+        "country": "Germany",
+        "male": "13.9",
+        "female": "4.5"
+    },
+    {
+        "country": "Malta",
+        "male": "8.2",
+        "female": "2.0"
+    },
+    {
+        "country": "Italy",
+        "male": "8.7",
+        "female": "2.2"
+    },
+    {
+        "country": "Sweden",
+        "male": "17.8",
+        "female": "7.6"
+    },
+    {
+        "country": "Portugal",
+        "male": "14.3",
+        "female": "3.7"
+    },
+    {
+        "country": "Belgium",
+        "male": "23.4",
+        "female": "9.1"
+    },
+    {
+        "country": "Greece",
+        "male": "5.4",
+        "female": "1.2"
+    },
+    {
+        "country": "Luxembourg",
+        "male": "11.6",
+        "female": "5.2"
+    }
+]

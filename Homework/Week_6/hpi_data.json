@@ -1,0 +1,82 @@
+[
+    {
+        "country": "Norway",
+        "hpi": "36.8"
+    },
+    {
+        "country": "Spain",
+        "hpi": "36.0"
+    },
+    {
+        "country": "Netherlands",
+        "hpi": "35.3"
+    },
+    {
+        "country": "Switzerland",
+        "hpi": "34.3"
+    },
+    {
+        "country": "Denmark",
+        "hpi": "32.7"
+    },
+    {
+        "country": "United Kingdom",
+        "hpi": "31.9"
+    },
+    {
+        "country": "Finland",
+        "hpi": "31.3"
+    },
+    {
+        "country": "Iceland",
+        "hpi": "31.1"
+    },
+    {
+        "country": "Cyprus",
+        "hpi": "30.7"
+    },
+    {
+        "country": "Austria",
+        "hpi": "30.5"
+    },
+    {
+        "country": "France",
+        "hpi": "30.4"
+    },
+    {
+        "country": "Ireland",
+        "hpi": "30.0"
+    },
+    {
+        "country": "Germany",
+        "hpi": "29.8"
+    },
+    {
+        "country": "Malta",
+        "hpi": "29.0"
+    },
+    {
+        "country": "Italy",
+        "hpi": "28.1"
+    },
+    {
+        "country": "Sweden",
+        "hpi": "28.0"
+    },
+    {
+        "country": "Portugal",
+        "hpi": "24.8"
+    },
+    {
+        "country": "Belgium",
+        "hpi": "23.7"
+    },
+    {
+        "country": "Greece",
+        "hpi": "23.6"
+    },
+    {
+        "country": "Luxembourg",
+        "hpi": "13.2"
+    }
+]
