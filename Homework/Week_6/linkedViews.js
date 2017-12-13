@@ -138,7 +138,7 @@ window.onload = function(){
 
     d3.select("#pieChart")
 
-    var colorPie = d3.scale.category20();
+    var colorPie = d3.scale.category[""];
 
     var arc = d3.svg.arc()
       .outerRadius(radius-100)
